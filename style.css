@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header__output-operations {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+.buttons__digits {
+    margin-top: 5%;
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.buttons__digits__number {
+    padding: 10%;
+}
